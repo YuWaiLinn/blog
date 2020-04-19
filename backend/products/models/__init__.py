@@ -1,0 +1,1 @@
+from .product_items import ProductItem
