@@ -44,7 +44,8 @@ export default {
   ],
   // add this Axios object
   axios: {
-    baseURL: "http://localhost:8000/api/v1.0"
+    // baseURL: "http://localhost:8000/api/v1.0"
+    baseURL: "http://proban.pythonanywhere.com/api/v1.0"
   },
   proxy: {
     "/api": {

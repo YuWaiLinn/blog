@@ -26,7 +26,7 @@ SECRET_KEY = 'yj6)!61@%kv+-70(vz)2nz%08g!+py6jkhu1kw-e%r4yn9*fv6'
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost', 'http://maysaint.surge.sh']
 
 
 # Application definition
