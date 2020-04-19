@@ -26,7 +26,7 @@ SECRET_KEY = 'yj6)!61@%kv+-70(vz)2nz%08g!+py6jkhu1kw-e%r4yn9*fv6'
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost']
 
 
 # Application definition
@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Third parth
+    'rest_framework',
 
     # My Apps
     'products.apps.ProductsConfig',
@@ -126,3 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+MEDIA_URL = "/api/v1.0/products/product_list/products_images/"
+MEDIA_ROOT = os.path.join(BASE_DIR, '')
